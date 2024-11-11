@@ -15,7 +15,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #646cff !important;
   text-decoration: inherit;
 }
 a:hover {
@@ -53,6 +53,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+ol {
+  list-style: auto !important;
+  padding-left: 10px !important;
+}
+
+ul {
+  list-style: disc !important;
+  padding-left: 10px !important;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -66,3 +75,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
