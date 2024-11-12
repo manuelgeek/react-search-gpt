@@ -33,6 +33,7 @@ export const ChatInput = ({
               }
             }}
             value={message}
+            readOnly={isTyping}
           />
         </div>
       </div>

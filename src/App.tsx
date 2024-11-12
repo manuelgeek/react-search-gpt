@@ -24,7 +24,7 @@ function App() {
         <div className="flex justify-center flex-col items-center">
           <img src={viteLogo} alt="img" className="w-12 mb-2" />
           <h1 className="w-full text-center text-white font-bold">
-            Real Search GPT
+            Real Estate GPT
           </h1>
         </div>
       </div>

@@ -11,7 +11,7 @@ export const useScrollToBottom = (
   }
 
   useEffect(() => {
-    console.log('tete')
+    // console.log('tete')
     scrollToBottom()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data])
